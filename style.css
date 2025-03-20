@@ -5,16 +5,26 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#header, .nav, #hero, #cta {
+    color: white;
+}
+
 #header{
     background-color: #313E50;
-    color: white;
     height: 60px;
 }
-.nav > a{
-    color: white;
-}
+
 #hero{
-    color: white;
+ 
     font: size 22px;
 }
 #hero > h1{
@@ -22,6 +32,19 @@ body{
 }
 #cta{
     background-color: #F1BF98;
-    color: white;
-    text-decoration: none;
+}
+
+#cta:hover{
+    color: #F1BF98
+    background-color: white
+}
+
+#products{
+    background-color: #313E50;
+}
+
+.card{
+    background-color: white;
+    width: fit-content;
+    
 }
