@@ -35,8 +35,9 @@ a:hover{
 }
 
 #cta:hover{
-    color: #F1BF98
-    background-color: white
+    color: #F1BF98;
+    
+    background-color: white;
 }
 
 #products{
